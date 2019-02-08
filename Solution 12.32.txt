@@ -1,0 +1,14 @@
+﻿Prova informale 12.32
+
+ITA
+Il goal di questa prova è dimostrare che due elementi x e y appartenenti al dominio che stiamo prendendo in considerazione hanno la stessa forma. Questo obiettivo è in realtà facile da dimostrare in virtù della premessa fornita.
+Stiamo prendendo in considerazione un dominio in cui esistono solamente elementi di una e una sola forma di Tarski's World (che sia essa un cubo, un tetraedro o un dodecaedro). Non è possibile che esistano due elementi nel dominio di forme diverse, come, per esempio, un cubo e un tetraedro. Di conseguenza, per ogni due elementi casuali x ed y in questo dominio, è sicuro che entrambi abbiamo la stessa forma.
+
+Procediamo come al solito con una prova per casi. Prendiamo in considerazione una situazione in cui ogni elemento x appartenente al dominio che stiamo prendendo in esame sia un tetraedro. Esaminando una coppia arbitraria di elementi del dominio (x e y), possiamo verificare che entrambi questi elementi sono appunto tetraedri. Il procedimento è analogo nel caso in cui x sia un cubo o un dodecaedro. Abbiamo a questo punto soddisfatto il nostro goal, ossia che ogni coppia di x e y appartenente al dominio sia della stessa forma.
+
+
+ENG
+The goal of this proof is to demostrate that two elements x and y in the domain of discourse we're taking into consideration have the same same. This goal is actually quite easy to prove using the given premise.
+We're assuming a domain of discourse populated exclusively by an inteterminate amount of elements that are as a whole equal to one and only one Tarski's World shape (be it a cube, a tethraedron or a dodecahedron). It's impossible for two objects of different shapes to exist in our domain of discourse, such as, for example, a cube and a tethraedron. Therefore, taking into consideration any two random elements x and y in this domain, it's a safe bet that both of them will have the same bet.
+
+Now, let's try to do a proof by cases, as usual. Let's consider a situation in which every item x in our domain of discourse is a tethraedron. Taking an arbitrary couple of objects in our domain of discourse (say, x and y), we can verify that both these objects are, in fact, tethraedra. The procedure is akin if we consider x a cube or a dodecahedron. We have, at this point, satisfied our goal, namely, that every coule of objects x and y in our domain of discourse has the same shape.

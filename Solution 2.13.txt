@@ -1,0 +1,10 @@
+﻿ITA
+Devo dimostrare che "d" è più piccolo di "b".
+So per premessa che "a" e "b" sono di dimensioni uguali.
+So che "a" è più grande di "c", quindi necessariamente "b" deve essere più grande di "c". Essendo "Bigger" e "Smaller" inversi, possiamo anche dire che "c" è più piccolo di "b". Sappiamo per premessa che "d" è a sua volta più piccolo di "c", quindi per forza di cose "d" deve essere più piccolo di "b".
+
+
+ENG
+I have to prove that "d" is smaller than "b".
+I know by premise that "a" and "b" have equal size.
+I know that "a" is larger than "c", so it follows that "b" must be larger than "c". Since "Bigger" and "Smaller" have opposite meanings, we can also say that "c" is smaller than "b". We know due to the premise that "d" is itself smaller than "c", so it must be that "d" is smaller than "b".

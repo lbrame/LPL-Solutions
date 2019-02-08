@@ -1,0 +1,9 @@
+7.2.4.28445wnds:Windows 86.2SntFC1543359502471D1543360744685S845320/x /y (Tet(x) & Tet(y) & SameRow(x, y))
+; You only need one block to make this true./x /y (Tet(x) & Tet(y) & Larger(x, y) & BackOf(x, y))
+; How many blocks do you need to add to make this 
+; true?Cube(c) & Cube(d) & FrontOf(c, d)Cube(c) $ Tet(a)
+; Name one of your earlier blocks a. Cube(d) & Cube(e) & ~Larger(d, e)/x (Cube(x) & x # d & x # e)/x (Tet(x) & Between(x, c, d))
+; Reposition things to make this true without new 
+; blocks. /x /y (Between(a, x, y) & Larger(a, x) & 
+          Smaller(a, y))/x (Cube(x) & ((x # c & x # d) | Large(x)))/x /y /z (Cube(x) & Dodec(y) & Dodec(z) & 
+      Between(y, x, z)  & Larger(x, z) & LeftOf(x, z))@x ~BackOf(x, d)@x ((Cube(x) & Large(x)) $ x = e)@x ~LeftOf(x, d)@x (x # e $ (FrontOf(x, e) | RightOf(x, e)))@x ((Tet(x) & Large(x)) % x = b)@x ((LeftOf(x, a) & ~Cube(x)) $ (Tet(x) & Small(x)))@x ((x # a & x # b  & x # d) $ Small(x))@x @y ((Medium(x) & Medium(y)) $ x = y)@x @y ((Tet(x) & Tet(y) & x # y) $ (x = a | y = a))@x (Between(x, c, d) $ (Tet(x) & Medium(x)))s=177647;

@@ -1,0 +1,5 @@
+7.2.4.28445wnds:Windows 86.2SntFC1544565544983D1544566189833S81164@x [Cube(x) | Tet(x)]
+; Has to be true@x Cube(x) | @x Tet(x)
+; Has to be false/x Cube(x) & /x Small(x)
+; Has to be true/x [Cube(x) & Small(x)]
+; Has to be falses=35960;

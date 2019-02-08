@@ -1,0 +1,12 @@
+7.2.4.28445wnds:Windows 86.2SntFC1544541683596D1544545498088D1544545997313D1544546349419D1544546477316D1544546687325D1544554691383D1544554798630D1544554887019S2308020@x [Tet(x) | /y LeftOf(x, y)]@x /y [Tet(x) | LeftOf(x,y)]
+;Put a prenex form of 1 in this space.@x @y[(x # y & Cube(x) & Cube(y)) $ 
+           /z Between(z, y, x)]@x @y /z [(x # y & Cube(x) & Cube(y)) $ Between(z,y,x)]@x [(Cube(x) & /y Smaller(y, x)) $ Medium(x)]@x @y[(Cube(x) & Smaller(y,x)) $ Medium(x)]/x [Cube(x) $ @x Small(x)]/x @y[Cube(x) $ Small(y)]/x [Cube(x) $ @x Cube(x)]/x @x [Cube(x) $ Cube(x)]~[@x Cube(x) | @x Tet(x) | @x Dodec(x)]/x /y /z [ ~Cube(x) & ~Tet(y) & ~Dodec(z)]
+
+; Additional quantifiers added because the scope would overlap~/x[Cube(x) & @y (Tet(y) $ /z Between(z, x, y))]@x /y @z  ~[Cube(x) & (~Tet(y) | Between(z,x,y))]/x Cube(x) % @x Small(x)@x @y /z /w [( ~Cube(x) | Small(y)) & (~Small(z)|Cube(w))]
+
+; Additional quantifiers added because the scope would overlap~[@x Tet(x) % @y Small(y)]@x /y @z /w ~[(~Tet(x) | Small(y)) & (~Small(z) | Tet(w))]
+
+; Additional quantifiers added because the scope would overlap@v [/x Larger(x, v) % /x LeftOf(x, v)]@v @x /y @z /w [(~Larger(x, v) | LeftOf(y, v)) & (~LeftOf(z, v) | Larger(w,v))]
+
+; Quick note: (~P V Q) & (~Q VP)
+; Additional quantifiers added because the scope would overlaps=209807;

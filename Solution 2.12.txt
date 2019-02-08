@@ -1,0 +1,17 @@
+﻿Devo dimostrare che "b" si trova di fronte a "c".
+
+Poiché so per premessa che "a" si trova dietro a "b", poiché "BackOf" e "FrontOf" sono inversi, posso inferire che "b" si trova di fronte ad "a".
+
+Se "a" si trova di fronte a "c", analogamente, so che che "c" si trova dietro ad "a".
+Considerato che "a" è di fronte a "c" e "b" è di fronte ad "a"
+Considerato per premessa che "a" si trova di fronte a "c", e "b" si trova a sua volta di fronte ad "a" e "c", ne consegue che "b" sia posto al di fronte di "c".
+
+ENG
+
+I have to prove that "b" is on the back of "b".
+
+Since I know due to the premise that "a" is located to the back of "b", given the fact that "BackOf" and "FrontOf" have opposite meanings, I can infer that "b" is located to the front of "a".
+
+If "a" is located to the front of "c", in the same way, I know that "c" is located to the back of "a".
+Considering that "a" is located to the front of "c" and "b", "b" is located in front of "a".
+Considering that, according to the premise, "a" is located in front of "c", and "b" is likewise located to the front of "a" and "c", it follows that "b" is located to the front of "c".
